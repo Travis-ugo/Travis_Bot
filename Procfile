@@ -1,1 +1,1 @@
-web: python Travis_Bot.py
+web: python3 Travis_Bot.py

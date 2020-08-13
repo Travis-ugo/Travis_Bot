@@ -67,11 +67,11 @@ def Webhook():
 
 @server.route('/')
 def good():
-    return f'hello funny boy'
+    return f"hello funny boy"
 
 if debug == True:
     bot.remove_webhook()
     bot.polling()
 else:
-    if __name__== '_main_':
-        server.run(host='0.0.0.0', port=int(os.environ.get('POST', 5000)))
+    if __name__== "_main_":
+        server.run(host="0.0.0.0", port=int(os.environ.get('POST', 5000)))
